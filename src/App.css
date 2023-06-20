@@ -1,0 +1,33 @@
+:root {
+  --background: #0d1b2a;
+  --fontcolor: #e0e1dd;
+  --container1: #1b263b;
+  --container2: #415a77;
+  --container3: #778da9;
+}
+
+.App,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100dvh;
+  width: 100dvw;
+
+}
+
+* {
+  font-family: 'Quicksand';
+  text-align: center;
+  overflow: hidden;
+  transition: 250ms ease-in !important;
+}
+
+
+.material-symbols-rounded {
+  vertical-align: middle;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
